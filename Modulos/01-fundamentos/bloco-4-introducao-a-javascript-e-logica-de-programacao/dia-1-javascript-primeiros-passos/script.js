@@ -95,7 +95,11 @@
 
 let protudo = "celular";
 let valorDeCusto = 900;
-let valorDeCustoTotal = valorDeCusto + (valorDeCusto * 0.2);
+let valorDeCustoTotal = valorDeCusto + valorDeCusto * 0.2;
 let valorDeVenda = 2500;
 let lucro = valorDeVenda - valorDeCustoTotal;
  console.log(lucro);
+
+ let a =0;
+for(let i=1;i<=50;i++){a+=i}
+console.log(a)
