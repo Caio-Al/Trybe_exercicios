@@ -1,0 +1,19 @@
+
+.body {
+    font-size: 19px;
+    font-weight: normal;
+    letter-spacing: .1px;
+    line-height: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    background-color: rgb(238, 238, 238); 
+}
+
+.buttons-container {
+   
+    display: inline;
+    text-align: left;
+    width: 25%;
+  }
+
+  
