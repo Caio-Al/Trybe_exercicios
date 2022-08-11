@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(93, 96, 99);
+    background-color: rgb(234, 237, 240);
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.form {
+    background-color: rgb(246, 247, 247);
+    width: 80%;
+    border: 1px solid rgb(214, 217, 220);
+    border-radius: 4px;
+    padding: 20px;
+    margin: 0 auto 40px auto;
+
+}
+
+.cabecalho {
+  text-align: center;
+  background-color: rgb(246, 247, 247);
+  width: 80%;
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 4px;
+  margin: 40px 0;
+  padding: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cabecalho h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#a-Resposta {
+    resize: none;
+}
+
+.button {
+    background-color: rgb(246, 247, 247);
+    margin-left: 130px;
+    width: 120px;
+    height: 45px;
+    border-radius: 15px;
+}
