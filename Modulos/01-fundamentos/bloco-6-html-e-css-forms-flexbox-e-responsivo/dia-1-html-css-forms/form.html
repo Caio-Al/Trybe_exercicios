@@ -4,14 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
     <title>Document</title>
 </head>
 <body>
-  <header>
-    <h1>FORM</h1>
-  </header>
-    <form action="">
-
+    <main> 
+      <header class="cabecalho">
+        <h1>FORM</h1>
+        <p><strong>Venha cadastra o seu animal</strong></p>
+      </header>
+    <form action="" method="get" enctype="multipart/form-data">
+    <section class="form">
+    <label for="input-text">Nome Completo:</label>
+      <input type="text" name="nome" id="input-text" placeholder="Digite seu nome" minlength="10" maxlength="40" required>
+      <br>
+      <br>
+    <label for="input-email">E-mail Completo:</label>
+      <input type="email" name="email" id="input-email" placeholder="Digite seu email" minlength="10" maxlength="50" required>
+      <br>
+      <br>
+      <label for="N-1"></label>
+        <input type="radio" id="N-1" name="opcoes" value="N-1" >Opção 1
+      <label for="N-2"></label>
+        <input type="radio" id="N-2" name="opcoes" value="N-2" checked >Opção 2
+      <label for="N-3"></label>
+        <input type="radio" id="N-3" name="opcoes" value="N-3" >Opção 3
+      <label for="N-4"></label>
+         <input type="radio" id="N-4" name="opcoes" value="N-4" >Opção 4
+        <br>
+        <br>
+        <p>Espaço pra digitar a resposta:</p>
+        <textarea name="resposta" id="a-Resposta" cols="40" rows="12" maxlength="500"></textarea>
+        <br>
+        <br>
+        <label for="data">Data:</label>
+          <input type="date" name="datas" id="data" placeholder="dd/mm/aaaa">
+          <br>
+          <br>
+        <label for="input-checkbox"></label>
+          <input type="checkbox" id="input-checkbox" name="termos" value="termo-1">Condordo 1
+        <br>
+        <label for="input-checkbox2"></label>
+          <input type="checkbox" id="input-checkbox2" name="termos" value="termo-2">Condordo 2 
+        </section>
+        <br>
+        <br>
+        <button type="submit" class="button" id="enviar">Enviar Formulário</button>
+        <button type="reset" class="button">Limpar Formulário</button> 
     </form>
+</main>
+<script src="script.js"></script>
 </body>
 </html>
