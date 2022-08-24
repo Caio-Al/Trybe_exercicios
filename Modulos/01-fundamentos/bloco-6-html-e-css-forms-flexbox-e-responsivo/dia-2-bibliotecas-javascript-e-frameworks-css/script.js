@@ -1,8 +1,11 @@
-let input_enviar = document.querySelector("#enviar");
 
-function nao(params){
-        params.preventDefault()
-    
-}
+const myModal = new bootstrap.Modal(document.getElementById('myModal'))
 
-input_enviar.addEventListener("click", nao)
+let button = document.getElementById('nao-clicar')
+
+
+button.addEventListener('click',function () {
+    myModal.show();
+} )
+// or
+// const myModalAlternative = new bootstrap.Modal('#myModal', options)
