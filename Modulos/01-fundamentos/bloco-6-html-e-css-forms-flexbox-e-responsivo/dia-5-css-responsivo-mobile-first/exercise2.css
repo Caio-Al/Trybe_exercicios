@@ -1,0 +1,114 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 10px;
+    font-size: 20px;
+  }
+  
+  ul {
+    list-style:none;
+    padding-left:0;
+}
+
+  @media screen and (max-width: 799px) {
+
+    body {
+      text-align: center;
+      background-color: bisque;
+    }
+
+    header h1 {
+        font-size: 30px;
+        margin: 0px;
+        margin-top: 25px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        border: 5px solid rgb(194, 255, 204);
+        color: white;
+        padding: 35px;
+    }
+
+    .aside-one {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width: 1100px) {
+
+    body {
+        background-color: rgb(176, 255, 225);
+        text-align: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        border: 5px solid rgb(194, 255, 204);
+        color: white;
+        padding: 35px;
+    }
+}
+
+@media screen and (min-width: 1101px) {
+
+    body {
+        text-align: center;
+        background-color: rgb(43, 41, 38);
+        color: aliceblue;
+      }
+
+      header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        line-height: 17px;     
+        margin-left: 270px;
+        /* border: 1px solid red; */
+    }
+
+    .aside-one {
+        /* border: 1px solid red; */
+        width: 300px;
+        margin-left: 40%;
+    }
+
+    .aside-one ul {
+        text-align: left;
+        /* border: 1px solid red; */
+    }
+
+    .aside-two {
+        width: 300px;
+        margin-left: 40%;
+    }
+
+      
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        border: 5px solid rgb(194, 255, 204);
+        color: white;
+        padding: 35px;
+    }
+}
