@@ -1,0 +1,119 @@
+/*
+ * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * apply a natural box layout model to all elements, but allowing components to change
+ */
+ html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+    /* largura boa ate 600px */
+
+  body {
+    font-size: 25px;
+    margin: 20px;
+  }
+  
+  article {
+  
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+  
+  h2 {
+   font-size: 25px;
+  }
+  
+  img {
+      max-width: 100%;
+      padding: 10px;
+      border-radius: 7px;
+  }
+  
+  main {
+  
+  }
+  
+  section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  figure {
+      margin: 0;
+  }
+  
+  figcaption {
+    font-size: .8em;
+  }
+
+  @media screen and (min-width: 800px) and (max-width: 1299px) {
+    body {
+        background-color: rgb(197, 191, 184);
+        font-size: 30px;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+    div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .linha1 {
+        flex-direction: column;
+    }
+    .linha2 {
+        flex-direction: column;
+    }
+
+    img {
+        height: 350px;
+        padding: 20px;
+    }
+  }
+
+  @media screen and (min-width: 1300px) {
+    body {
+        background-color: rgb(157, 255, 222);
+        font-size: 35px;
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .linha1 {
+        flex-direction: column;
+    }
+    .linha2 {
+        flex-direction: column;
+    }
+
+    img {
+        height: 350px;
+        padding: 20px;
+    }
+  }
+  
